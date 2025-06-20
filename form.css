@@ -1,0 +1,333 @@
+.form-container {
+    width: 40%;
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #2c2c2c;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+}
+
+.form-container h1 {
+    color: #ffa500; 
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: left;
+    color: #ffa500;
+}
+
+input[type="text"], input[type="file"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ffa500;
+    color: #1c1c1c;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #e69500;
+}
+
+.file-name {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: #fff;
+    font-style: italic;
+}
+
+button[type="submit"], .register-button {
+    display: inline-block;
+    width: auto;
+    padding: 0.5rem 1rem;
+    background-color: #ffa500;
+    color: #1c1c1c;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+button[type="submit"]:last-child, .register-button:last-child {
+    margin-bottom: 0;
+}
+
+.register-button {
+    margin-top: 1rem;
+}
+
+button[type="submit"]:hover, .register-button:hover {
+    background-color: #e69500;
+}
+
+textarea {
+    resize: none;
+}
+
+.password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.password-container input[type="password"] {
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.toggle-password-button {
+    padding: 0.5rem 1rem;
+    background-color: #ffa500;
+    color: #1c1c1c;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+    text-align: center;
+}
+
+.toggle-password-button:hover {
+    background-color: #e69500;
+}
+
+.post.comment {
+    background-color: #2c2c2c;
+    padding: 1rem;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.post.comment .comment-form {
+    margin-top: 1rem;
+}
+
+.post.comment .comment-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 1rem;
+    resize: none;
+}
+
+.comment-form {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    border-radius: 8px;
+}
+
+.comment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #ffa500;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 1rem;
+    resize: none;
+}
+
+.comment-form button {
+    background-color: #ffa500;
+    color: #1c1c1c;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+    background-color: #e69500;
+}
+
+.comment-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.comment-form-inline {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.comment-form-inline input[type="text"] {
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 1rem;
+    width: 120px;
+}
+
+.comment-form-inline button {
+    background-color: #ffa500;
+    color: #1c1c1c;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form-inline button:hover {
+    background-color: #e69500;
+}
+
+.orange-box {
+    display: inline-block;
+    background-color: #ffa500;
+    color: #1c1c1c;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.7rem 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: background 0.2s, color 0.2s;
+    cursor: pointer;
+}
+
+.orange-box:hover {
+    background-color: #e69500;
+    color: #fff;
+}
+
+.comment-box {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+}
+
+.reply-box {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.action-box {
+    background-color: #ffa500;
+    border-radius: 12px;
+    padding: 1rem 0;
+    margin: 1.5rem 0 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.action-button {
+    background: none;
+    color: #1c1c1c;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.action-button:hover {
+    background-color: #e69500;
+    color: #fff;
+}
+
+.comment-action {
+    display: inline-block;
+    background-color: #ffa500;
+    color: #1c1c1c;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.comment-action:hover {
+    background-color: #e69500;
+    color: #fff;
+}
+
+.comment-button, .reply-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline-block;
+}
